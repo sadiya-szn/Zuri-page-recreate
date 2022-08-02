@@ -14,10 +14,12 @@ body{
 }
 
 img{
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
+/* home styling starts here */
 
+/* HERO SECTION STYLING */
 .hero-container{
     height: 800px;
     background-image: url(./imgforhome/hero-bg.svg);
@@ -64,6 +66,8 @@ img{
     text-decoration: none;
     color: #e7332b;
 }
+
+
 section .one{
     background-color: #fff;
     overflow: hidden;
@@ -161,7 +165,7 @@ div{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     margin-right: -15px;
     /* margin-bottom: 40px; */
 }
@@ -169,21 +173,21 @@ div{
 .col{
     z-index: 1;
     position: relative;
-    max-width: 31%;
-    flex: 0 0 31%;
+    max-width: 31.2%;
+    flex: 0 0 31.2%;
     /* margin-left: 15px; */
-    /* margin-right: 15px; */
+    margin-right: 15px;
     text-align: start;
     margin: 0;
 }
 
 .m-15{
-    margin:0 1.5rem;
+    margin:0 1.8rem;
 }
 
 .col-card{
     width: 100%;
-    height: 511px;
+    /* height: 511px; */
     background-color: #fffafa;
     padding: 61px 47px 82px 36px;
 }
@@ -224,6 +228,7 @@ div{
     z-index: -1;
 }
 
+/* FOOTER STYLING STARTS HERE */
 .footer{
     margin-top: 215px;
     max-width: 1240px !important;
@@ -300,3 +305,119 @@ hr{
     padding-bottom: 95px;
     margin-bottom: 1rem;
 }
+
+/* FOOTER STYLING ENDS HERE */
+
+/* MEDIA QUERIES FOR HOME PAGE STARTS HERE */
+@media screen and (max-width:1199px) {
+    .dotimg, .dotimg2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col{
+        /* width: 100%; */
+        /* flex: 0 0 100%; */
+        max-width: 100%;
+        margin-left: 15px;
+        margin-bottom: 48px;
+        margin-right: 15px;
+        /* height: auto; */
+        /* padding-bottom: 15px; */
+    }
+}
+@media screen and (max-width:768px) {
+    .logo-img1{
+        padding-top: 100px;
+    }
+
+    .btn button{
+        margin: 10px 50px;
+    }
+    
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .first img{
+        margin-bottom: 15px;
+        width: 150px;
+    }
+
+    .footer h3{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .footer h3 a p{
+    margin-bottom: 1rem;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    
+}
+
+/* MEDIA QUERIES FOR HOME PAGE ENDS HERE  */
+
+/* TRAINING PAGE STYLING STARTS HERE */
+#container{
+
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1100;
+    top: 0px;
+    left: auto;
+    right: 0;
+}
+
+.nav{
+    min-height: 65px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+
+.nav-content a{
+    margin-right: 2rem;
+    
+
+}
+
+.nav-links{
+    position: relative;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    padding: 6px 8px;
+    color: #514949;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* TRAINING PAGE STYLING ENDS HERE */
