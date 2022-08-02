@@ -75,25 +75,30 @@ section .one{
 
 .btn{
    color: #fff;
+   /* width: 300px; */
 }
 
 .btn button{
-    font-size: 16px;
+    font-size: 15px;
     height: 48px;
-    /* width: 180px; */
+    /* width: 220px; */
     border-radius: 0px;
     outline: none;
     color: #fff;
     /* border: transparent; */
-    padding: 0px 31px;
-    margin: 10px 15px;
+    padding: 0px 30px;
+    margin: 10px 10px;
 }
 
-.btn a:nth-child(2) button{
+.break{
+    display: none;
+}
+
+.btn a:last-child button{
     color: #e7332b;
 }
 
-.btn a:nth-child(2) button:hover{
+.btn a:last-child button:hover{
     color: white;
 }
 
@@ -338,8 +343,16 @@ hr{
         padding-top: 100px;
     }
 
-    .btn button{
+    /* .btn button{
         margin: 10px 50px;
+    } */
+    .btn{
+        display: block;
+        margin: auto;
+    }
+
+    .break{
+        display: block;
     }
     
     .footer-container{
