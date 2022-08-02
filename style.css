@@ -20,7 +20,143 @@
     justify-content: center;
     align-items: center;
 }
+
+.hero-main{
+    max-width: 700px;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    padding: 10px;
+}
+
+.hero-main h2{
+    font-size: 32px;
+    text-align: center;
+    color: #514949;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.hero-main p{
+    margin-bottom: 70px;
+    line-height: 24px;
+    color: #514949;
+}
+
+.hero-main a{
+    text-decoration: none;
+    color: #e7332b;
+}
 section .one{
     background-color: #fff;
     overflow: hidden;
+}
+
+.btn{
+   color: #fff;
+}
+
+.btn button{
+    font-size: 16px;
+    height: 48px;
+    /* width: 180px; */
+    border-radius: 0px;
+    outline: none;
+    color: #fff;
+    /* border: transparent; */
+    padding: 0px 32px;
+    margin: 10px 15px;
+}
+
+.btn a:nth-child(2) button{
+    color: #e7332b;
+}
+
+.btn a:nth-child(2) button:hover{
+    color: white;
+}
+
+
+.red-filled{
+    border: transparent;
+    background-color: #e7332b;
+}
+
+.red-filled:hover{
+    background-color: #fff;
+    border: 1px solid #e7332b;
+    color: #e7332b;
+}
+
+.red-outlined{
+    /* color: orangered; */
+    border: 1px solid #e7332b;
+    outline: #e7332b;
+    background-color: #fff;
+}
+
+.red-outlined:hover{
+    background-color: #e7332b;
+    color: #fff;
+
+}
+
+section.one{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.xxx{
+    color: #e7332b;
+    font-size: 15px;
+    margin-top: 140px;
+}
+
+.motto{
+    color: #514949;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 65px;
+}
+  
+.cards{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col{
+    z-index: 1;
+}
+
+.col-card{
+    height: 511px;
+    background-color: #fffafa;
+    padding: 61px 47px 82px 36px;
+}
+
+.dotimg{
+    /* width: 100%; */
+    position: absolute;
+    left: 6px;
 }
