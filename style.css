@@ -155,7 +155,7 @@ section.one{
 }
 
 div{
-    display: block;
+    /* display: block; */
 }
   
 .cards{
@@ -170,7 +170,7 @@ div{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* margin-left: -15px; */
+    margin-left: -15px;
     margin-right: -15px;
     /* margin-bottom: 40px; */
 }
