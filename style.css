@@ -1,8 +1,22 @@
+@import url('http://fonts.cdnfonts.com/css/averta-standard');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    font-family: 'Averta Standard', sans-serif;
+    /* font-weight: 400; */
+}
+
+img{
+    vertical-align: middle;
+}
+
 
 .hero-container{
     height: 800px;
@@ -129,34 +143,159 @@ section.one{
     margin-top: 9px;
     margin-bottom: 65px;
 }
+
+div{
+    display: block;
+}
   
 .cards{
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 1240px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1240px !important;
+    margin: 0 auto;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-left: -15px;
     margin-right: -15px;
+    /* margin-bottom: 40px; */
 }
 
 .col{
     z-index: 1;
+    position: relative;
+    max-width: 31%;
+    flex: 0 0 31%;
+    /* margin-left: 15px; */
+    /* margin-right: 15px; */
+    text-align: start;
+    margin: 0;
+}
+
+.m-15{
+    margin:0 1.5rem;
 }
 
 .col-card{
+    width: 100%;
     height: 511px;
     background-color: #fffafa;
     padding: 61px 47px 82px 36px;
 }
 
+.col-card img{
+    margin-bottom: 48px;
+}
 .dotimg{
-    /* width: 100%; */
+    width: 100%;
     position: absolute;
-    left: 6px;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.col-card p{
+    line-height: 24px;
+    opacity: 0.9;
+    font-size: 16px;
+    color: #514949;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.col-card h3 a{
+    text-decoration: none;
+    color: #e7332b;
+    text-align: left;
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+.dotimg2{
+    width: 100%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.footer{
+    margin-top: 215px;
+    max-width: 1240px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer h3{
+    color: #514949;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 0.5rem;
+
+}
+
+.second a{
+    text-decoration: none;
+    color: #e7332b;
+}
+
+.second p{
+    margin-bottom: 1rem;
+}
+
+.third p{
+    font-size: 14px;
+    color: #514949;
+    opacity: 0.9;
+    line-height: 20px;
+    margin-bottom: 1rem;
+}
+
+.third a{
+    color: #e7332b;
+    text-decoration: none;
+}
+
+.fourth img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.line{
+    margin: 1rem;
+}
+
+.footer hr{
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+hr{
+    overflow: visible;
+}
+.copyright{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright p{
+    color: #514949;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    padding-bottom: 95px;
+    margin-bottom: 1rem;
 }
