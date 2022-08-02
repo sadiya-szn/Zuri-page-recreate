@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-container{
+    height: 800px;
+    background-image: url(./img/hero-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.logo-img1{
+    display: flex;
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+section .one{
+    background-color: #fff;
+    overflow: hidden;
+}
