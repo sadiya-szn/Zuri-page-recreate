@@ -359,7 +359,7 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: center; 
     }
 
     .first img{
@@ -443,6 +443,7 @@ header{
     text-decoration: none;
     display: inline-flex;
 }
+
 
 .emo{
     display: flex;
@@ -550,3 +551,5 @@ width: 123%;
 
 
 /* TRAINING PAGE STYLING ENDS HERE */
+/* TRAINING PAGE STYLING ENDS HERE */
+
