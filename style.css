@@ -531,7 +531,7 @@ width: 123%;
 }
 
 .yyy{
-    font-size: 55px;
+    font-size: 50px;
     margin: auto;
     letter-spacing: 0.00938em;
     text-align: center;
@@ -548,6 +548,117 @@ width: 123%;
     flex-basis: 25%;
     max-width: 25%;
 }
+
+.doodle{
+    display: flex;
+    justify-content: right;
+    margin-left: -10px;
+    margin-right: 50px;
+    margin-bottom: 28px;
+}
+
+.basic{
+    width: 68%;
+    font-size: 18px;
+    line-height: 130%;
+    /* margin-bottom: 90px; */
+    margin: auto;
+    text-align: center;
+    color: #1b1a20;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* background-color: #e7332b; */
+    /* border-radius: 70px; */
+    margin-top: 60px;
+    /* padding: 10px 32px; */
+    /* width: 25%; */
+    /* margin-left: 230px; */
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cta-link{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.wire1{
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    width: 40%;
+}
+
+.maza{
+    margin-top: -141px;
+    margin-left: 33px;
+    width: 54px;
+    position: absolute;
+}
+
+.section2{
+    margin: auto;
+    width: 90%;
+    max-width: 1440px;
+    padding-top: 49px;
+}
+
+.hr{
+    margin: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+
+}
+
+hr{
+    display: block;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    margin-top: -16px;
+    margin-left: -16px;
+    width: 100%;
+}
+
+.ingressive{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 30px;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.ingressive h4{
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 40px;
+}
+
+.symb{
+    padding-left: 16px;
+    padding-top: 16px;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.main-sec{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* TRAINING PAGE STYLING ENDS HERE */
