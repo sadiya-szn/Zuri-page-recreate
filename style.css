@@ -387,16 +387,16 @@ hr{
 
 /* TRAINING PAGE STYLING STARTS HERE */
 #container{
-   /* background-color: rgb(255, 252, 245); */
+   background-color: rgb(255, 252, 245);
 }
 
 .bg{
-    background-color: rgb(255, 253, 245);
+    /* background-color: rgb(255, 253, 245); */
 }
 
 header{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 2px;
 }
 
 .header{
@@ -404,10 +404,11 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1100;
-    top: 15px;
+    /* top: 15px; */
     left: auto;
+    /* padding: 10px 0; */
     right: 0;
-    /* background-color: rgb(255, 252, 245); */
+    background-color: rgb(255, 252, 245);
 }
 
 .nav{
@@ -933,6 +934,100 @@ hr{
     font-size: 18px;
     align-items: center;
     /* padding: 20px 0; */
+}
+
+.aside{
+    padding-left: 24px;
+    padding-top: 24px;
+    flex-basis: 58.333%;
+    max-width: 58.3333%;
+}
+
+.section6{
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 69px;
+    width: 90%;
+}
+
+.head{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    margin-left: -24px;
+}
+
+.texxt{
+    padding-left: 24px;
+    padding-top: 24px;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.sco{
+    margin: 0;
+    color: #e7332b;
+    font-size: 24px;
+    letter-spacing: 0.00938em;
+    line-height: 130%;
+}
+
+.areas{
+    color: #1b1a20;
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 0.00938em;
+    line-height: 130%;
+    font-weight: 700;
+}
+
+.stacks{
+    display: flex;
+    margin-top: -24px;
+    margin-left: -24px;
+    flex-flow: row wrap;
+}
+
+.crd{
+    flex-basis: 33.333%;
+    max-width: 33.33%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.bx{
+    background-color: #fff;
+    border-radius: 41px;
+    /* height: 240px; */
+    box-shadow: 0 11px 22px rgba(231, 52, 43, 0.137);
+    padding: 40px;
+}
+
+.tite{
+    /* margin-left: 24px; */
+    letter-spacing: 0.00938em;
+    line-height: 130%;
+    color: #1b1a20;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.exp{
+    margin-bottom: 5px;
+    letter-spacing: 0.01em;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 140%;
+    color: #1b1a20;
+    font-size: 17px;
+}
+
+.divi{
+   display: flex;
+   justify-content: center;
+   margin-top: 70px;
+margin-bottom: 60px; 
 }
 
 
