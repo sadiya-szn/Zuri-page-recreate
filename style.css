@@ -1097,21 +1097,41 @@ hr{
     font-weight: 600;
     line-height: 130%;
 }
+.accordion a{
+    text-decoration: none;
+}
 
 .span img{
     max-width: 25px;
     max-height: 25px;
 }
 
+.acc{
+    /* display: block; */
+}
+
 .ans{
+    display: block;
     height: 0px;
     /* opacity: 0; */
-    animation: height;
-    animation-duration: 0.3s;
-    padding-bottom: 25px;
+    overflow: hidden;
+    /* animation: height; */
+    /* animation-duration: 0.3s; */
+    /* padding-bottom: 20px; */
+    transition: height 0.5s ease;
     color: black;
     /* visibility: hidden; */
 
+}
+.answer p{
+    padding: 20px;
+    margin: 0;
+}
+
+.ans:target{
+    padding-bottom: 20px;
+   height: 40px;
+   /* visibility: visible; */
 }
 
 .sec7-main{
