@@ -1196,22 +1196,50 @@ hr{
     position: absolute;
 }
 
-.tab{
+.time{
     display: flex;
-    padding-left: 70px;
     padding-top: 40px;
+    padding-left: 40px;
+    flex-flow: row wrap;
     flex-basis: 50%;
     max-width: 50%;
 }
 
-.blabx{
+.time-main{
     background-color: #1b1a20;
     border-radius: 65px;
     height: 740px;
     padding: 64px 48px;
-    box-shadow: 0px 31px 60px rgba(204, 106, 106, 0.267) ;
+    box-shadow: 0px 31px 60px rgba(247, 132, 124, 0.221);
+}
+
+.top{
+    padding-bottom: 18px;
+    letter-spacing: 0.00938em;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.tt{
+    margin: 0;
+    padding-bottom: 18px;
+    font-size: 400;
+    line-height: 140%;
+    width: 90%;
     color: #fff;
 }
+
+.ti{
+    margin: 0;
+    color: #fff;
+    font-weight: 18px;
+    width: 90%;
+    font-weight: 900;
+    line-height: 140%;
+    letter-spacing: 0.01;
+}
+
 
 
 
