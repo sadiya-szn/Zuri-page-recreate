@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    /* display: flex; */
+    width: 100%;
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+
+.nav{
+    display: flex;
+    min-height: 64px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    margin: auto;
+    /* padding-left: 24px; */
+    /* padding-right: 24px; */
+    max-width: 1440px;
+    width: 89%;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: end; */
+}
+
+.nav-bar ul li{
+    position: relative;
+    display: inline-flex;
+    margin-right: 3rem;
+    text-decoration: none;
+    padding: 8px 8px;
+    min-width: 64px;
+}
+
+.nav-bar ul li:nth-child(1){
+    /* padding-bottom: 12px; */
+    border-bottom: 5px solid #e7332b;
+}
+
+.links{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.btn{
+    outline: none;
+    border: none;
+    position: initial;
+    padding: 11px 35px;
+    background-color: #e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    margin-right: -50px;
+    line-height: 19px;
+}
+
+.section2{
+    padding-top: 220px;
+    margin: auto;
+    max-width: 1440px;
+    width: 85%;
+}
+
+.sec-main2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.text{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.text h4{
+    margin: 0;
+    color: #161617;
+    line-height: 49px;
+    font-size: 40px;
+
+}
+
+.text h4 span{
+    color: #e7332b;
+}
+
+.line{
+    margin-left: 365px;
+    margin-top: -24px;
+}
+
+.pp{
+    font-size: 20px;
+    color: #787878;
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+.btnn{
+    outline: none;
+    border: none;
+    position: initial;
+    padding: 9px 43px;
+    background-color: #e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    margin-right: -50px;
+    line-height: 19px;
+}
+
+.btnnn{
+    outline: none;
+    border: none;
+    position: initial;
+    padding: 9px 43px;
+    background-color: #585858;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    margin-left: 60px;
+    line-height: 19px;
+}
+
+.pix{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.head-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img1{
+    width: 70%;
+    margin-top: -120px;
+}
+
+.line2{
+    
+}
