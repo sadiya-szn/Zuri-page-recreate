@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
 header{
     padding-top: 0px;
     padding-bottom: 15px;
@@ -399,7 +409,7 @@ header{
 
 .sec5-main{
     margin: auto;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 85%;
 }
 
@@ -689,7 +699,7 @@ header{
     }
 
     .head-img{
-        /* width: 800px; */
+        /* width: 600px; */
     }
     .skill{
         /* justify-content: center; */
@@ -758,7 +768,7 @@ header{
     }
  }
 
- @media screen and (max-width:602px)  {
+ @media screen and (max-width:599px)  {
     .stk{
         flex-basis: 50%;
         max-width: 50%;
@@ -771,6 +781,11 @@ header{
 
     .tcx, .tcp, .tc{
         padding: 5px;
+    }
+
+    .card{
+        flex-basis: 100%;
+        max-width: 100%;
     }
  }
 
