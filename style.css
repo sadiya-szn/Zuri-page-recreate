@@ -11,7 +11,7 @@
 
 
 body{
-    font-family: 'Averta-Regular', sans-serif
+    font-family: 'Averta-Regular', sans-serif;
     /* font-weight: 400; */
 }
 
@@ -391,6 +391,11 @@ hr{
 #container{
    background-color: rgb(255, 252, 245);
 }
+
+#container img{
+    mix-blend-mode: darken;
+}
+
 
 .bg{
     /* background-color: rgb(255, 253, 245); */
