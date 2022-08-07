@@ -28,6 +28,7 @@ img{
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
+    height: 100vh;
 }
 
 .logo-img1{
@@ -1075,71 +1076,74 @@ hr{
     border: 1px solid rgb(204, 203, 203);
 }
 
-.accordion{
+.accordionx{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     position: relative;
     background-color: #fffdf5;
     border-bottom: 1px solid #ccc;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .acc{
-    display: flex;
-    padding: 10px 0;
-    justify-content: space-between;
-    cursor: pointer;
-    align-items: center;
-    color: #333;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 130%;
+    /* display: flex; */
+    /* padding: 10px 0; */
+    /* justify-content: space-between; */
+    /* cursor: pointer; */
+    /* align-items: center; */
+    /* color: #333; */
+    /* font-size: 18px; */
+    /* font-weight: 600; */
+    /* line-height: 130%; */
 }
 
 .question{
-    padding-right: 3em;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #333;
+    cursor: pointer;
     font-size: 18px;
     font-weight: 600;
     line-height: 130%;
 }
-.accordion a{
-    text-decoration: none;
+
+.question::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: 400;
+
 }
 
-.span img{
-    max-width: 25px;
-    max-height: 25px;
-}
-
-.acc{
-    /* display: block; */
-}
 
 .ans{
-    display: block;
+    position: relative;
+    background-color: #fffdf5;
+    padding-left: 17px;
+    /* background-color: #fff; */
     height: 0px;
-    /* opacity: 0; */
     overflow: hidden;
-    /* animation: height; */
-    /* animation-duration: 0.3s; */
-    /* padding-bottom: 20px; */
+    transition: 0.2s;
+    display: block;
     transition: height 0.5s ease;
     color: black;
-    /* visibility: hidden; */
 
 }
-.answer p{
-    padding: 20px;
-    margin: 0;
-}
 
-.ans:target{
-    padding-bottom: 20px;
-   height: 40px;
-   /* visibility: visible; */
-}
+ .accordionx.active .ans{
+    height: 50px;
+    /* padding: 10px; */
+    overflow-x: hidden;
+ }
+
+
 
 .sec7-main{
     display: flex;
