@@ -1223,8 +1223,21 @@ hr{
     background-color: #1b1a20;
     border: 1px solid #fff;
     box-shadow: 0px 31px 60px rgba(247, 132, 124, 0.221);
-    padding: 48px 48px;
+    padding: 48px 45px;
     /* margin: auto; */
+    height: 700px;
+   /* max-width: 50%; */
+}
+
+.program-cardss{
+    border-radius: 70px;
+    background-color: #1b1a20;
+    border: 1px solid #fff;
+    box-shadow: 0px 31px 60px rgba(247, 132, 124, 0.221);
+    padding: 48px 45px;
+    /* margin-left: 0px; */
+    /* margin: auto; */
+    /* width: 50%; */
     height: 700px;
 }
 
@@ -1234,10 +1247,11 @@ hr{
     padding-bottom: 18px;
     letter-spacing: 0.00938em;
     color: #fff;
+    width: 90%;
     font-size: 35px;
     font-weight: 700;
     /* padding-top: 40px; */
-    /* padding-left: 40px; */
+    padding-right: 10px;
 }
 
 .dura{
@@ -1262,16 +1276,198 @@ hr{
 }
 
 .trac li{
+    /* padding: 0 10px; */
     color: #fff;
-    margin: 0;
+    /* margin: auto; */
     width: 80%;
     line-height: 140%;
     letter-spacing: 0.01em;
 }
 
+
+.tracc li{
+    /* padding: 0 10px; */
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+}
 .trac li a{
     /* text-decoration: none; */
     color: #fff;
+}
+
+.titi{
+   margin-top: -155px;
+   position: relative;
+   right: 0;
+   /* margin-right: -79px; */
+   float: right;
+}
+
+.ee{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin-top: -72px;
+    margin-right: -57px;
+}
+
+.section9{
+    max-width: 1440px;
+    width: 90%;
+    padding-top: 29px;
+    margin: 0px auto;
+}
+
+.circle{
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.tech{
+    background-color: rgb(231, 51, 43);
+    border-radius: 24px;
+    /* position: absolute; */
+}
+
+.round{
+    left: 12%;
+    /* width: 12%; */
+    position: relative;
+    margin-top: 65px;
+    margin-bottom: -200px;
+}
+
+.bend{
+    float: right;
+    position:initial;
+    right: 12%;
+    width: 11%;
+    left: 15%;
+    top: 30%;
+}
+
+.muii{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 130%;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    padding-top: 70px;
+    /* padding-top: -70px; */
+}
+
+.brk-tech{
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 140%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.01em;
+    padding-top: 10px;
+}
+
+.en{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enrolll{
+    position: initial;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+    border-radius: 70px;
+    color: #e7332b;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 12px 32px;
+}
+
+.trup{
+    float: right;
+    position: relative;
+    margin-top: -125px;
+}
+
+.section10{
+   width: 92%;
+   padding-top: 90px;
+   max-width: 1440px;
+   margin: auto;
+   padding-bottom: 20px;
+}
+
+.fest{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -16px;
+    margin-left: -16px;
+
+}
+
+.lg{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-top: 16px;
+    padding-left: 16px;
+
+}
+
+.soci{
+    padding-left: 16px;
+    padding-top: 16px;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.soc-box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon img{
+    margin-right: 10px;
+}
+
+.seco{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.futext{
+    line-height: 140%;
+    color: #1b1a20;
+    letter-spacing: 0.01em;
+}
+
+.futextt{
+    display: flex;
+    justify-content: space-between;
+    line-height: 140%;
+    color: #1b1a20;
+    /* letter-spacing: 0.01em; */
+}
+
+.demac{
+    padding-top: 30px;
 }
 
 
