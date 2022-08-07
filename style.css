@@ -1082,7 +1082,7 @@ hr{
     flex-direction: column;
     position: relative;
     background-color: #fffdf5;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2.5px solid #ccc;
     /* padding: 20px; */
 }
 
@@ -1195,8 +1195,8 @@ hr{
 
 .structure{
     display: flex;
-    margin-top: -40px;
-    margin-left: -40px;
+    margin-top: -20px;
+    margin-left: -20px;
     flex-flow: row wrap;
 }
 
@@ -1207,48 +1207,71 @@ hr{
     position: absolute;
 }
 
-.time{
+.program-str{
     display: flex;
-    padding-top: 40px;
     padding-left: 40px;
-    flex-flow: row wrap;
+    padding-top: 40px;
     flex-basis: 50%;
     max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-.time-main{
+.program-cards{
+    border-radius: 70px;
     background-color: #1b1a20;
-    border-radius: 65px;
-    height: 740px;
-    padding: 64px 48px;
+    border: 1px solid #fff;
     box-shadow: 0px 31px 60px rgba(247, 132, 124, 0.221);
+    padding: 48px 48px;
+    /* margin: auto; */
+    height: 700px;
 }
 
-.top{
+.time{
+    margin: 0;
+    color: #fff;
     padding-bottom: 18px;
     letter-spacing: 0.00938em;
     color: #fff;
     font-size: 35px;
-    font-weight: 900;
+    font-weight: 700;
+    /* padding-top: 40px; */
+    /* padding-left: 40px; */
 }
 
-.tt{
-    margin: 0;
+.dura{
+    margin: 0px;
     padding-bottom: 18px;
     font-size: 400;
+    font-size: 16px;
     line-height: 140%;
     width: 90%;
     color: #fff;
 }
 
-.ti{
+.trk{
     margin: 0;
+    font-size: 18px;
     color: #fff;
     font-weight: 18px;
     width: 90%;
     font-weight: 900;
     line-height: 140%;
     letter-spacing: 0.01;
+}
+
+.trac li{
+    color: #fff;
+    margin: 0;
+    width: 80%;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+}
+
+.trac li a{
+    /* text-decoration: none; */
+    color: #fff;
 }
 
 
