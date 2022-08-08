@@ -391,6 +391,7 @@ hr{
 /* TRAINING PAGE STYLING STARTS HERE */
 #container{
    background-color: rgb(255, 252, 245);
+   width: 100%;
 }
 
 #container img{
@@ -417,6 +418,12 @@ header{
     /* padding: 10px 0; */
     right: 0;
     background-color: rgb(255, 252, 245);
+}
+.logoo{
+    padding: 0;
+}
+.ai{
+   padding: 0;
 }
 
 .nav{
@@ -448,7 +455,7 @@ header{
 .nav-links{
     position: relative;
     letter-spacing: 0.02857em;
-    min-width: 70px;
+    min-width: 64px;
     padding: 8px 10px;
     color: #514949;
     font-size: 18px;
@@ -490,7 +497,7 @@ header{
     margin: auto;
     max-width: 1440px;
     /* position: relative; */
-    padding-top: 200px !important;
+    padding-top:150px !important;
     width: 83%;
 
 
@@ -498,7 +505,7 @@ header{
 
 .rrr{
     display: flex;
-    width: calc(100% + 16px);
+    width: 100%;
     margin-top: -16px;
     margin-left: -16px;
     /* margin-right: -16px; */
@@ -527,6 +534,10 @@ header{
 width: 123%;
 }
 
+.male1{
+    width: 123%;
+}
+
 .dos{
     padding-left: 16px;
     padding-top: 16px;
@@ -544,7 +555,7 @@ width: 123%;
 }
 
 .yyy{
-    font-size: 50px;
+    font-size: 49px;
     margin: auto;
     letter-spacing: 0.00938em;
     text-align: center;
@@ -645,6 +656,7 @@ hr{
 .ingressive{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 16px;
     padding-top: 30px;
     flex-basis: 33.33%;
@@ -652,7 +664,7 @@ hr{
 }
 
 .ingressive h4{
-    font-size: 24px;
+    font-size: 22px;
     line-height: 130%;
     text-transform: uppercase;
     /* margin-right: 1em; */
@@ -673,7 +685,7 @@ hr{
 }
 
 .ingg{
-    width: 55%;
+    width: 75%;
 }
 
 .jobs{
@@ -716,6 +728,7 @@ hr{
 .sec3-box{
     display: flex;
     width: 100%;
+    flex-flow: row wrap;
 }
 
 .why{
@@ -860,6 +873,7 @@ hr{
 }
 
 .arr2{
+    /* mix-blend-mode: normal; */
     display: flex;
     justify-content: flex-end;
     margin-right: 128px;
@@ -924,7 +938,7 @@ hr{
     align-items: center;
     position: relative;
     background-color: transparent;
-    padding: 13px 10px;
+    padding: 13px 15px;
     /* margin-top: 40px; */
     /* min-width: 64px; */
     /* padding-left: 8px; */
@@ -932,7 +946,7 @@ hr{
     /* padding-bottom: 11px; */
     border: 2px solid #fff;
     border-radius: 79px;
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -1006,17 +1020,38 @@ hr{
 .bx{
     background-color: #fff;
     border-radius: 41px;
-    /* height: 240px; */
+    height: 300px;
     box-shadow: 0 11px 22px rgba(231, 52, 43, 0.137);
     padding: 40px;
 }
+.suxb{
+    margin: auto;
+    letter-spacing: 0.00938em;
+    color: #e7332b;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -50px;
+}
 
-.tite{
+.titee{
     /* margin-left: 24px; */
     letter-spacing: 0.00938em;
     line-height: 130%;
     color: #1b1a20;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+
+.tite{
+    /* margin-left: 24px; */
+    letter-spacing: 0.001em;
+    line-height: 140%;
+    color: #1b1a20;
     font-size: 20px;
+    /* text-align: center; */
     font-weight: 700;
     padding-bottom: 20px;
 }
@@ -1025,10 +1060,10 @@ hr{
     margin-bottom: 5px;
     letter-spacing: 0.01em;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     line-height: 140%;
     color: #1b1a20;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .divi{
@@ -1469,6 +1504,193 @@ hr{
 .demac{
     padding-top: 30px;
 }
+
+/* TRAINING PAGE MEDIA QUERY */
+@media screen and (max-width:1199px) {
+    .section-one{
+        justify-content: center;
+        width: 100%;
+        padding-top: 60px !important;
+    }
+    .rrr{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        width: 76%;
+    }
+    .uno{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .dos{
+        padding-top:0px;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .lady1{
+        width: 100%;
+    }
+    .yyy{
+        width: 100%;
+    }
+    .male1{
+        display: none;
+    }
+    .section4{
+
+    }
+    .card{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .main-sec5{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        /* align-items: center; */
+        width: 100%;
+    }
+    .get-st{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .get-st p{
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .gtt{
+        font-size: 30px;
+    }
+    .task{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .teamwrk{
+        flex-basis: 25%;
+        max-width: 25%;
+
+    }
+    .gg p{
+        padding-left: 0px;
+    }
+    .aside{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .texxt{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .sco{
+        font-size: 20px;
+    }
+    .areas{
+        font-size: 30px;
+    }
+    .crd{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .que{
+        font-size: 20px;
+    }
+    .faq{
+        font-size: 30px;
+    }
+    .suxb{
+        font-size: 20px;
+    }
+    .titee{
+        font-size: 30px;
+    }
+    
+    
+}
+
+@media screen and (max-width:1120px) {
+    .logoo{
+        width: 70%;
+        margin-right: 0;
+    }
+    .ai{
+        margin-right: -10px;
+    }
+    .nav-links{
+        padding: 8px 5px;
+    }
+    .nav-content a{
+        margin-right: 1.1em;
+    }
+    .thumbs-up{
+       width: 65px; 
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .nav-links{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:899px) {
+    .box{
+        flex-direction: column;
+    }
+    .ingressive{
+        flex-basis: 100%;
+        text-align: center;
+        max-width: 100%;
+    }
+    .symb{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .ingg{
+        width: 30%;
+    }
+    .jobs{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .jobs p{
+        font-size: 18px;
+    }
+    .why{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .whyo{
+        font-size: 20px;
+    }
+    .why1{
+        font-size: 30px;
+    }
+    .card{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .teamwrk{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .gg{
+        padding: 10px 13px;
+        width: 60%;
+    }
+    .crd{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .move{
+        display: none;
+    }
+    .program-str{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+/* TRAINING PAGE MEDIA QUERY ENDS */
 
 
 
