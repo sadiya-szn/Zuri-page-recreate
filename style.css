@@ -1191,7 +1191,7 @@ hr{
 }
 
  .accordionx.active .ans{
-    height: 50px;
+    height: 60px;
     /* padding: 10px; */
     overflow-x: hidden;
  }
