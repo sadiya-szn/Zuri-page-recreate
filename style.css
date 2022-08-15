@@ -5,9 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 2px solid red;
 }
-
-
 
 
 body{
@@ -389,14 +388,15 @@ hr{
 /* MEDIA QUERIES FOR HOME PAGE ENDS HERE  */
 
 /* TRAINING PAGE STYLING STARTS HERE */
-#container{
+.containerr{
    
    width: 100%;
+   max-width: 100%;
    overflow-y: hidden;
-   /* margin: auto; */
+   margin: 0 auto;
 }
 
-#container img{
+.containerr img{
     mix-blend-mode: darken;
 }
 
@@ -856,7 +856,8 @@ hr{
 .section5{
     background-color: #e7332b;
     margin-top: 149px;
-    width: 100%;
+    max-width: 1440px;
+   /* max-width: 100%; */
     /* margin: auto; */
 }
 
@@ -928,6 +929,9 @@ hr{
 }
 
 .teamwrk{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     padding-top: 24px;
     padding-left: 24px;
     flex-basis: 50%;
@@ -952,6 +956,12 @@ hr{
     border-radius: 79px;
     width: 90%;
 
+}
+
+.ggimg{
+    /* mix-blend-mode: normal; */
+    padding-left: 9px;
+    width: 30%;
 }
 
 .gg p{
@@ -1024,7 +1034,7 @@ hr{
 .bx{
     background-color: #fff;
     border-radius: 41px;
-    height: 300px;
+    /* height: 300px; */
     box-shadow: 0 11px 22px rgba(231, 52, 43, 0.137);
     padding: 40px;
 }
@@ -1573,10 +1583,15 @@ hr{
     .teamwrk{
         flex-basis: 25%;
         max-width: 25%;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
     }
     .gg p{
         padding-left: 0px;
+    }
+    .ggimg{
+        width: 30%;
     }
     .aside{
         max-width: 100%;
@@ -1707,8 +1722,8 @@ hr{
         padding: 10px 18px;
         width: 80%;
     }
-    .gg img{
-        width: 60%;
+    .ggimg{
+        width: 40%;
     }
     .gg p{
         font-size: 13px;
@@ -1717,6 +1732,11 @@ hr{
 @media screen and (max-width:600px){
     .yyy{
         font-size: 28px;
+    }
+
+    .gg{
+        width: 90%;
+        padding: 10px 5px;
     }
 }
 /* TRAINING PAGE MEDIA QUERY ENDS */
